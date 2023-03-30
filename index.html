@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
    <link rel="stylesheet" href="./css/main.css">
-   
+
    <script src="./main.js" defer></script>
    <title>Portfolio - Fernanda Naser</title>
 </head>
+
 <body>
    <header>
       <div class="container">
@@ -37,9 +39,12 @@
                <div class="type-animation">
                   <p id="typed"></p>
                </div>
-               <div id="typed-strings"><p>Designer and Front End Developer.</p></div>
+               <div id="typed-strings">
+                  <p>Front End Developer.</p>
+               </div>
                <div class="intro-btns">
-                  <a href="" target="_blank" class="cv" download="Fernanda-Naser.pdf"><button class="cv-btn">Download CV</button></a>
+                  <a href="" target="_blank" class="cv" download="Fernanda-Naser.pdf"><button class="cv-btn">Download
+                        CV</button></a>
                   <a href="#social"><button class="contact-btn">Get in touch.</button></a>
                </div>
             </div>
@@ -48,27 +53,33 @@
       </section>
 
 
- <section class="intro">
+      <section class="intro">
          <div class="container">
             <div class="group1">
 
             </div>
-               
-            </div>
 
-            <section class="about" id="sobre">
-               <div class="container">
-                  <img src="./assets/imgs/eu2.png" alt="Fernanda Naser"><br>
-                  <div>
-                     <h2>About me</h2>
+         </div>
 
-                  <p>Hello, my name is Fernanda, I'm front-end developer.<br>
-                     I design and develop applications<br>
-                     I'm a frontend developer with an design background</p>
-                  </div>
-                  
+         <section class="about" id="sobre">
+            <div class="container">
+               <img src="./assets/imgs/eu2.png" alt="Fernanda Naser"><br>
+               <div>
+                  <h2>About me</h2>
+
+                  <p>Hello, my name is Fernanda Naser.<br>
+                     I'm a Front-End Developer with a background in design. I have experience in Web Development,
+                     Interfaces, Visual Identity, Editorial Projects, Graphic Design, and Product Design.<br>
+                     My design background allows me to have a critical eye on the interfaces I develop, always seeking the best
+                     user experience.<br>
+                     I have a strong knowledge of technologies such as HTML, CSS, JavaScript, and React, as well as
+                     experience in creating responsive and optimized layouts for different devices.<br>
+                     My experience enables me to work on complex projects, with the ability to solve problems and develop creative
+                     solutions.</p>
                </div>
-            </section>
+
+            </div>
+         </section>
       </section>
 
 
@@ -88,7 +99,7 @@
                <h3>Github</h3>
                <p>fernandanaser</p>
             </a>
-            <a href="#" class="social-col">
+            <a href="mailto:fernandamendesnaser@gmail.com" class="social-col">
                <div class="icon-img">
                   <i class='bx bx-envelope'></i>
                </div>
@@ -107,7 +118,7 @@
       <section class="projetos" id="projetos">
          <div class="container">
             <h2>Projects</h2>
-            <p>Check out a few of the main projects I have worked on.</p>
+            <p>Check out a few of the main projects I have worked on</p>
             <div class="cards-container">
                <a href="https://fernandanaser.github.io/nikkel/" target="_blank" class="proj-card">
                   <div class="card-img"><img src="./assets/imgs/nikkel-app.PNG" alt="Nikkel"></div>
@@ -137,10 +148,11 @@
                <a href="https://fernandaemy.wixsite.com/design/design-grafico" target="_blank" class="proj-card">
                   <div class="card-img"><img src="./assets/imgs/graphicdesign.PNG" alt="screenshot"></div>
                   <h3>Graphic Design Projects</h3>
-                  <p>Technologies: Adobe Indesign, Illustrator, Photoshop, After Effects, CorelDraw. Figma, Adobe XD.</p>
+                  <p>Technologies: Adobe Indesign, Illustrator, Photoshop, After Effects, CorelDraw. Figma, Adobe XD.
+                  </p>
                </a>
             </div>
-            
+
          </div>
       </section>
       <section class="skills" id="skills">
@@ -193,7 +205,7 @@
       </section>
    </main>
    <footer>
-      <p>©2022 by <span>Fernanda Naser</span></p>
+      <p>©2023 by <span>Fernanda Naser</span></p>
    </footer>
    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
    <script src="https://unpkg.com/scrollreveal"></script>
@@ -202,14 +214,15 @@
          stringsElement: '#typed-strings', typeSpeed: 30
       })
       const sr = ScrollReveal({
-            origin: 'top',
-            distance: '50px',
-            duration: 2000,
-            reset: true
-        });
-        ScrollReveal().reveal('.proj-card', { delay: 300, opacity: .2, origin: 'bottom' });
-        ScrollReveal().reveal('.ser-card', { delay: 300, opacity: .2, origin: 'bottom' });
-        ScrollReveal().reveal('.skill-card', { delay: 300, opacity: .2, origin: 'bottom' });
+         origin: 'top',
+         distance: '50px',
+         duration: 2000,
+         reset: true
+      });
+      ScrollReveal().reveal('.proj-card', { delay: 300, opacity: .2, origin: 'bottom' });
+      ScrollReveal().reveal('.ser-card', { delay: 300, opacity: .2, origin: 'bottom' });
+      ScrollReveal().reveal('.skill-card', { delay: 300, opacity: .2, origin: 'bottom' });
    </script>
 </body>
+
 </html>
